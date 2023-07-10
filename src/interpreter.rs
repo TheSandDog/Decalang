@@ -45,7 +45,7 @@ impl Interpreter {
                 Stmt::Expression { expression } => {
                     expression.evaluate(self.environment.clone())?;
                 }
-                Stmt::Print { expression } => {
+                Stmt::Send{ expression } => {
                     let value = expression.evaluate(self.environment.clone())?;
                     println!("{}", value.to_string());
                 }
@@ -107,9 +107,7 @@ impl Interpreter {
                             let function = self.make_function(method);
                             methods_map.insert(name.lexeme.clone(), function);
                         } else {
-                            panic!(
-                                "Something that was not a function was in the methods of a cat"
-                            );
+                            panic!("Something that was not a function was in the methods of a cat");
                         }
                     }
 

@@ -796,7 +796,7 @@ impl Expr {
     }
 
     #[allow(dead_code)]
-    pub fn print(&self) {
+    pub fn send(&self) {
         println!("{}", self.to_string());
     }
 }
@@ -869,7 +869,7 @@ mod tests {
     use std::collections::HashMap;
 
     #[test]
-    fn pretty_print_ast() {
+    fn pretty_send_ast() {
         let minus_token = Token {
             token_type: TokenType::Minus,
             lexeme: "-".to_string(),

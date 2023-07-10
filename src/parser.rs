@@ -163,8 +163,8 @@ impl Parser {
     }
 
     fn statement(&mut self) -> Result<Stmt, String> {
-        if self.match_token(Print) {
-            self.print_statement()
+        if self.match_token(Send) {
+            self.send_statement()
         } else if self.match_token(LeftBrace) {
             self.block_statement()
         } else if self.match_token(If) {
@@ -309,10 +309,10 @@ impl Parser {
         Ok(Stmt::Block { statements })
     }
 
-    fn print_statement(&mut self) -> Result<Stmt, String> {
+    fn send_statement(&mut self) -> Result<Stmt, String> {
         let value = self.expression()?;
         self.consume(Semicolon, "Expected ';' after value.")?;
-        Ok(Stmt::Print { expression: value })
+        Ok(Stmt::Send { expression: value })
     }
 
     fn expression_statement(&mut self) -> Result<Stmt, String> {
@@ -710,7 +710,7 @@ impl Parser {
             }
 
             match self.peek().token_type {
-                Cat | Def | Var | For | If | While | Print | Return => return,
+                Cat | Def | Var | For | If | While | Send | Return => return,
                 _ => (),
             }
 
@@ -722,7 +722,7 @@ impl Parser {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::scanner::{LiteralValue::*, Scanner};
+    use crate::scnr::{LiteralValue::*, Scanner};
 
     #[test]
     fn test_addition() {

@@ -20,16 +20,16 @@ fn get_keywords_hashmap() -> HashMap<&'static str, TokenType> {
         ("cat", Cat),
         ("else", Else),
         ("false", False),
+        ("true", True),
         ("for", For),
         ("def", Def),
         ("if", If),
         ("nil", Nil),
         ("or", Or),
-        ("writ", Print),
+        ("send", Send),
         ("return", Return),
         ("super", Super),
         ("this", This),
-        ("true", True),
         ("var", Var),
         ("while", While),
     ])
@@ -329,7 +329,7 @@ pub enum TokenType {
     If,
     Nil,
     Or,
-    Print,
+    Send,
     Return,
     Super,
     This,
@@ -480,7 +480,7 @@ mod tests {
 
     #[test]
     fn get_keywords() {
-        let source = "var this_is_a_var = 12;\nwhile true { print 3 };";
+        let source = "var this_is_a_var = 12;\nwhile true { send 3 };";
         let mut scanner = Scanner::new(source);
         scanner.scan_tokens().unwrap();
 
@@ -494,7 +494,7 @@ mod tests {
         assert_eq!(scanner.tokens[5].token_type, While);
         assert_eq!(scanner.tokens[6].token_type, True);
         assert_eq!(scanner.tokens[7].token_type, LeftBrace);
-        assert_eq!(scanner.tokens[8].token_type, Print);
+        assert_eq!(scanner.tokens[8].token_type, Send);
         assert_eq!(scanner.tokens[9].token_type, Number);
         assert_eq!(scanner.tokens[10].token_type, RightBrace);
         assert_eq!(scanner.tokens[11].token_type, Semicolon);

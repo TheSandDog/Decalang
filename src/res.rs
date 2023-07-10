@@ -90,7 +90,7 @@ impl Resolver {
                 then: _,
                 els: _,
             } => self.resolve_if_stmt(stmt)?,
-            Stmt::Print { expression } => self.resolve_expr(expression)?,
+            Stmt::Send { expression } => self.resolve_expr(expression)?,
             Stmt::ReturnStmt { keyword: _, value } => {
                 if self.current_function == FunctionType::None {
                     return Err("Return statement is not allowed outside of a function".to_string());

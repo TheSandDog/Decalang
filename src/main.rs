@@ -14,7 +14,7 @@ use std::fs;
 use std::io::{self, BufRead, Write};
 use std::process::exit;
 
-
+pub fn run_file(path: &str) -> Result<(), String> {
     // let mut interpreter = Interpreter::new();
     match fs::read_to_string(path) {
         Err(msg) => return Err(msg.to_string()),

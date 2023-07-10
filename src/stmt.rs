@@ -6,7 +6,7 @@ pub enum Stmt {
     Expression {
         expression: Expr,
     },
-    Print {
+    Send {
         expression: Expr,
     },
     Var {
@@ -51,7 +51,7 @@ impl Stmt {
         use Stmt::*;
         match self {
             Expression { expression } => expression.to_string(),
-            Print { expression } => format!("(print {})", expression.to_string()),
+            Send { expression } => format!("(print {})", expression.to_string()),
             Var {
                 name,
                 initializer: _,
