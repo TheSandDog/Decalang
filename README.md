@@ -17,7 +17,9 @@ Here is a simple code in three different languages
 **Decalang**
 
 ```c
-fun add(x,y) { send(x + y); }
+fun add(x,y) { 
+  send(x + y); 
+}
 var x = 23;
 var y = 12;
 
@@ -43,7 +45,8 @@ int main(int argc, const char argv[]) {
 **Python**
 
 ```python
-def add(x,y) : print(x + y)
+def add(x,y): 
+  print(x + y)
 x = 23;
 y = 12;
 

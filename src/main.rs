@@ -1,7 +1,6 @@
 mod addons;
 mod system;
 use crate::addons::clear;
-use crate::addons::prompt;
 use crate::interpreter::*;
 use crate::parser::*;
 use crate::res::*;
@@ -87,8 +86,6 @@ fn run_prompt() -> Result<(), String> {
 
 fn main() {
     clear::clear();
-    prompt::prompt_welcome();
-    // prompt::prompt_help();
     let args: Vec<String> = env::args().collect();
 
     if args.len() == 2 {

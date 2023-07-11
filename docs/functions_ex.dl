@@ -1,8 +1,0 @@
-decalang > fun foo(x, y) { send(x + y); }
-decalang > Processing command: fun foo(x, y) { send(x + y); }
-
-decalang > foo(3, 4);
-decalang > Processing command: foo(3, 4);
-
-7
-decalang > 

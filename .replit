@@ -1,4 +1,4 @@
-run = "cargo run"
+run = "cargo run main.deca"
 hidden = ["target"]
 entrypoint = "src/main.rs"
 
