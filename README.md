@@ -10,4 +10,5 @@ Primary programming language used : rust
 Dl is a fast language and easy to use to do simple tasks as fast as possible
 
 
+
 ![img_1](assets/img/img_1:2.png)
