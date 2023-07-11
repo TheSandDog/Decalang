@@ -9,10 +9,38 @@ Primary programming language used : rust
 
 Dl is a fast language and easy to use to do simple tasks as fast as possible
 
-```ruby
+Decalang (dl)
+
+```java
 fun add(x,y) { send(x + y); }
 var x = 23;
 var y = 12;
 
 add(x,y);
+```
+
+C
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+void add(x,y) { printf(x + y); }
+
+int main(int argc, const char argv[]) {
+  var x = 23;
+  var y = 12;
+  add(x,y);
+  return 0;
+}
+```
+
+Python
+
+```python
+def add(x,y) : print(x + y)
+x = 23;
+y = 12;
+
+add(x + y)
 ```
