@@ -2,14 +2,13 @@
 
 Decalang (dl) is an interpreted shell language used to do simple tasks since this language is only usable on command line/terminal at the time. 
 
-Code editor used : repl.it; 
-Primary programming language used : rust
-
 # WHY DECALANG?
 
-Dl is a fast language and easy to use to do simple tasks as fast as possible
+Dl is a fast language and easy to use since it only has 15 keywords
 
-Decalang (dl)
+Here is a simple code in three different languages
+
+**Decalang**
 
 ```c
 fun add(x,y) { send(x + y); }
@@ -19,7 +18,7 @@ var y = 12;
 add(x,y);
 ```
 
-C
+**C**
 
 ```c
 #include <stdio.h>
@@ -35,7 +34,7 @@ int main(int argc, const char argv[]) {
 }
 ```
 
-Python
+**Python**
 
 ```python
 def add(x,y) : print(x + y)
@@ -44,3 +43,7 @@ y = 12;
 
 add(x + y)
 ```
+
+***warning***
+
+**decalang is not ready to use for big projects and it doesnt include libraries**
