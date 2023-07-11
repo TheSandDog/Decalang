@@ -11,7 +11,7 @@ Dl is a fast language and easy to use to do simple tasks as fast as possible
 
 Decalang (dl)
 
-```java
+```c
 fun add(x,y) { send(x + y); }
 var x = 23;
 var y = 12;
