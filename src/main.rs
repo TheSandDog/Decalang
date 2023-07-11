@@ -1,14 +1,18 @@
-mod environment;
-mod expr;
-mod interpreter;
-mod parser;
-mod res;
-mod scnr;
-mod stmt;
+mod addons;
+mod system;
+use crate::addons::clear;
+use crate::addons::prompt;
 use crate::interpreter::*;
 use crate::parser::*;
 use crate::res::*;
 use crate::scnr::*;
+use crate::system::environment;
+use crate::system::expr;
+use crate::system::interpreter;
+use crate::system::parser;
+use crate::system::res;
+use crate::system::scnr;
+use crate::system::stmt;
 use std::env;
 use std::fs;
 use std::io::{self, BufRead, Write};
@@ -47,7 +51,7 @@ fn run(interpreter: &mut Interpreter, contents: &str) -> Result<(), String> {
 fn run_prompt() -> Result<(), String> {
     let mut interpreter = Interpreter::new();
     loop {
-        print!("htl >> ");
+        print!("decalang > ");
         match io::stdout().flush() {
             Ok(_) => (),
             Err(_) => return Err("Could not flush stdout".to_string()),
@@ -68,7 +72,7 @@ fn run_prompt() -> Result<(), String> {
             Err(_) => return Err("Couldnt read line".to_string()),
         }
 
-        println!("htl >> Processing command: {}", buffer);
+        println!("decalang > Processing command: {}", buffer);
         match run(&mut interpreter, &buffer) {
             Ok(_) => (),
             Err(msg) => println!("{}", msg),
@@ -77,6 +81,9 @@ fn run_prompt() -> Result<(), String> {
 }
 
 fn main() {
+    clear::clear();
+    prompt::prompt_welcome();
+    // prompt::prompt_help();
     let args: Vec<String> = env::args().collect();
 
     if args.len() == 2 {
