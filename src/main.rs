@@ -13,6 +13,7 @@ use crate::system::parser;
 use crate::system::res;
 use crate::system::scnr;
 use crate::system::stmt;
+use colored::*;
 use std::env;
 use std::fs;
 use std::io::{self, BufRead, Write};
@@ -51,7 +52,7 @@ fn run(interpreter: &mut Interpreter, contents: &str) -> Result<(), String> {
 fn run_prompt() -> Result<(), String> {
     let mut interpreter = Interpreter::new();
     loop {
-        print!("decalang > ");
+        print!("{}", "decalang > ".green());
         match io::stdout().flush() {
             Ok(_) => (),
             Err(_) => return Err("Could not flush stdout".to_string()),
@@ -72,7 +73,11 @@ fn run_prompt() -> Result<(), String> {
             Err(_) => return Err("Couldnt read line".to_string()),
         }
 
-        println!("decalang > Processing command: {}", buffer);
+        println!(
+            "{} {}",
+            "decalang > Processing command: ".yellow(),
+            buffer.yellow()
+        );
         match run(&mut interpreter, &buffer) {
             Ok(_) => (),
             Err(msg) => println!("{}", msg),
