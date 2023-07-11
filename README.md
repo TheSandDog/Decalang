@@ -44,7 +44,6 @@ y = 12;
 add(x + y)
 ```
 
-|               :warning: WARNING               |
-|:----------------------------------------------|
-| **decalang is not ready to use for big**      |
-| **projects and it doesnt include libraries**  |
+|                                  :warning: WARNING                                  |
+|:------------------------------------------------------------------------------------|
+| **decalang is not ready to use for big projects and it doesnt include libraries**   |
