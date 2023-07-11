@@ -22,7 +22,7 @@ fn get_keywords_hashmap() -> HashMap<&'static str, TokenType> {
         ("false", False),
         ("true", True),
         ("for", For),
-        ("def", Def),
+        ("fun", Fun),
         ("if", If),
         ("nil", Nil),
         ("or", Or),
@@ -324,7 +324,7 @@ pub enum TokenType {
     Cat,
     Else,
     False,
-    Def,
+    Fun,
     For,
     If,
     Nil,
@@ -509,7 +509,7 @@ mod tests {
 
         assert_eq!(scanner.tokens.len(), 6);
 
-        assert_eq!(scanner.tokens[0].token_type, Def);
+        assert_eq!(scanner.tokens[0].token_type, Fun);
         assert_eq!(scanner.tokens[1].token_type, Identifier);
         assert_eq!(scanner.tokens[2].token_type, Gets);
         assert_eq!(scanner.tokens[3].token_type, StringLit);

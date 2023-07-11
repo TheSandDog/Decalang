@@ -9,6 +9,10 @@ Primary programming language used : rust
 
 Dl is a fast language and easy to use to do simple tasks as fast as possible
 
+```ruby
+fun add(x,y) { send(x + y); }
+var x = 23;
+var y = 12;
 
-
-![img_1](assets/img/img_1:2.png)
+add(x,y);
+```

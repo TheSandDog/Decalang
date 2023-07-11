@@ -55,7 +55,7 @@ impl Parser {
     fn declaration(&mut self) -> Result<Stmt, String> {
         if self.match_token(Var) {
             self.var_declaration()
-        } else if self.match_token(Def) {
+        } else if self.match_token(Fun) {
             self.function(FunctionKind::Function)
         } else if self.match_token(Cat) {
             self.category_declaration()
@@ -633,7 +633,7 @@ impl Parser {
                     method,
                 };
             }
-            Def => {
+            Fun => {
                 self.advance();
                 result = self.function_expression()?;
             }
@@ -710,7 +710,7 @@ impl Parser {
             }
 
             match self.peek().token_type {
-                Cat | Def | Var | For | If | While | Send | Return => return,
+                Cat | Fun | Var | For | If | While | Send | Return => return,
                 _ => (),
             }
 
