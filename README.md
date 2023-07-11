@@ -2,6 +2,12 @@
 
 Decalang (dl) is an interpreted shell language used to do simple tasks since this language is only usable on command line/terminal at the time. 
 
+
+|                                  :warning: WARNING                                  |
+|:------------------------------------------------------------------------------------|
+| **decalang is not ready to use for big projects and it doesnt include libraries**   |
+
+
 # WHY DECALANG?
 
 Dl is a fast language and easy to use since it only has 15 keywords
@@ -43,7 +49,3 @@ y = 12;
 
 add(x + y)
 ```
-
-|                                  :warning: WARNING                                  |
-|:------------------------------------------------------------------------------------|
-| **decalang is not ready to use for big projects and it doesnt include libraries**   |
