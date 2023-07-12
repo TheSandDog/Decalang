@@ -10,7 +10,7 @@ Decalang (dl) is an interpreted programming language made in rust used to do sim
 
 # WHY DECALANG?
 
-Dl is a fast language and easy to use since it only has 15 keywords.
+Dl is a fast language, easy to use and beginner friendly since it only has 15 keywords to memorize.
 
 Here is a simple code in three different languages including decalang.
 
