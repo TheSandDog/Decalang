@@ -1,18 +1,18 @@
 # DECALANG
 
-Decalang (dl) is an interpreted shell language used to do simple tasks since this language is only usable on command line/terminal at the time. 
+Decalang (dl) is an interpreted programming language made in rust used to do simple tasks since this language is in heavy developement and currently in beta 
 
 
 |                                  :warning: WARNING                                  |
 |:------------------------------------------------------------------------------------|
-| **decalang is not ready to use for big projects and it doesnt include libraries**   |
+| **decalang is not ready to use for big projects because of the limitation of the language**   |
 
 
 # WHY DECALANG?
 
-Dl is a fast language and easy to use since it only has 15 keywords
+Dl is a fast language and easy to use since it only has 15 keywords.
 
-Here is a simple code in three different languages
+Here is a simple code in three different languages including decalang.
 
 **Decalang**
 
@@ -53,7 +53,7 @@ y = 12;
 add(x + y)
 ```
 
-# Download to create programs (Windows)
+# Download to create programs
 
 
 Make sure to do every steps right
@@ -68,7 +68,7 @@ Make sure to do every steps right
 
 5- execute your program in the terminal with the command [file name].dl or [file name].deca
 
-# Download to use the shell(Windows)
+# Download to use the shell
 
 
 Make sure to do every steps right
