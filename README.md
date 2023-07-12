@@ -47,10 +47,10 @@ int main(int argc, const char argv[]) {
 ```python
 def add(x,y): 
   print(x + y)
-x = 23;
-y = 12;
+x = 23
+y = 12
 
-add(x + y)
+add(x,y)
 ```
 
 # Download to create programs
