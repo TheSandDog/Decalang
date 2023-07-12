@@ -633,7 +633,7 @@ impl Parser {
                     method,
                 };
             }
-            Fu => {
+            Fun => {
                 self.advance();
                 result = self.function_expression()?;
             }
@@ -710,7 +710,7 @@ impl Parser {
             }
 
             match self.peek().token_type {
-                Cat | Fu | Def | For | If | While | Send | Return => return,
+                Cat | Fun | Def | For | If | While | Send | Return => return,
                 _ => (),
             }
 
