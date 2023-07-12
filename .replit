@@ -1,4 +1,4 @@
-run = "cargo run"
+run = "cargo run main.dl"
 hidden = ["target"]
 entrypoint = "src/main.rs"
 

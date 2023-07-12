@@ -17,11 +17,11 @@ Here is a simple code in three different languages
 **Decalang**
 
 ```c
-fu add(x,y) { 
+fun add(x,y) { 
   send(x + y); 
 }
-def x = 23;
-def y = 12;
+var x = 23;
+var y = 12;
 
 add(x,y);
 ```

@@ -30,7 +30,7 @@ fn get_keywords_hashmap() -> HashMap<&'static str, TokenType> {
         ("return", Return),
         ("super", Super),
         ("this", This),
-        ("def", Def),
+        ("var", Var),
         ("do", While),
     ])
 }
@@ -334,7 +334,7 @@ pub enum TokenType {
     Super,
     This,
     True,
-    Def,
+    Var,
     While,
 
     Eof,
