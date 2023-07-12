@@ -64,4 +64,4 @@ Make sure to do every steps
 
 3- Create your program
 
-4- Go in cmd/terminal and type ``` cargo run [file path] ``` to execute de program
+4- Go in cmd/terminal and type ``` cargo run [file path] ``` to execute the program

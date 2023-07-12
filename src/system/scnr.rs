@@ -31,7 +31,7 @@ fn get_keywords_hashmap() -> HashMap<&'static str, TokenType> {
         ("super", Super),
         ("this", This),
         ("var", Var),
-        ("do", While),
+        ("while", While),
     ])
 }
 
@@ -509,7 +509,7 @@ mod tests {
 
         assert_eq!(scanner.tokens.len(), 6);
 
-        assert_eq!(scanner.tokens[0].token_type, Fu);
+        assert_eq!(scanner.tokens[0].token_type, Fun);
         assert_eq!(scanner.tokens[1].token_type, Identifier);
         assert_eq!(scanner.tokens[2].token_type, Gets);
         assert_eq!(scanner.tokens[3].token_type, StringLit);

@@ -55,7 +55,7 @@ impl Parser {
     fn declaration(&mut self) -> Result<Stmt, String> {
         if self.match_token(Var) {
             self.var_declaration()
-        } else if self.match_token(Var) {
+        } else if self.match_token(Fun) {
             self.function(FunctionKind::Function)
         } else if self.match_token(Cat) {
             self.category_declaration()

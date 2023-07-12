@@ -84,7 +84,6 @@ fn run_prompt() -> Result<(), String> {
 }
 
 fn main() {
-    print!("\n");
     let args: Vec<String> = env::args().collect();
 
     if args.len() == 2 {
