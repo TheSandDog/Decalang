@@ -53,15 +53,17 @@ y = 12;
 add(x + y)
 ```
 
-# Download
+# Download (Windows)
 
 
-Make sure to do every steps
+Make sure to do every steps right
 
-1- Download as zip decalang
+1- Download the decalang.exe file on the github
 
-2- Download rust : https://www.rust-lang.org/tools/install
+2- Create a file with an extension usually .dl or .deca
 
-3- Create your program
+3- Write your code using the decalang/doc syntax
 
-4- Go in cmd/terminal and type ``` cargo run [file path] ``` to execute the program
+4- Open as default the type of file you created with decalang.exe
+
+5- execute your program in the terminal with the command [file name].dl or [file name].deca
