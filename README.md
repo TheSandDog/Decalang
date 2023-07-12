@@ -53,12 +53,12 @@ y = 12;
 add(x + y)
 ```
 
-# Download (Windows)
+# Download to create programs (Windows)
 
 
 Make sure to do every steps right
 
-1- Download the decalang.exe file on the github
+1- Download the Latest decalang.exe file on the github
 
 2- Create a file with an extension usually .dl or .deca
 
@@ -67,3 +67,14 @@ Make sure to do every steps right
 4- Open as default the type of file you created with decalang.exe
 
 5- execute your program in the terminal with the command [file name].dl or [file name].deca
+
+# Download to use the shell(Windows)
+
+
+Make sure to do every steps right
+
+1- Download the Latest Source Code (zip) file on the github
+
+2- Unzip the zip file
+
+3- Execute the decalang.exe file
