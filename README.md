@@ -54,8 +54,12 @@ add(x + y)
 ```
 
 # Download
+
+
 Make sure to do every steps
 
 1- Download as zip decalang
+
 2- Download rust : https://www.rust-lang.org/tools/install
+
 3- type ``` cargo run [file path] ```
