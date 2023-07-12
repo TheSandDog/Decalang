@@ -17,11 +17,11 @@ Here is a simple code in three different languages
 **Decalang**
 
 ```c
-fun add(x,y) { 
+fu add(x,y) { 
   send(x + y); 
 }
-var x = 23;
-var y = 12;
+def x = 23;
+def y = 12;
 
 add(x,y);
 ```
@@ -62,4 +62,6 @@ Make sure to do every steps
 
 2- Download rust : https://www.rust-lang.org/tools/install
 
-3- type ``` cargo run [file path] ```
+3- Create your program
+
+4- Go in cmd/terminal and type ``` cargo run [file path] ``` to execute de program

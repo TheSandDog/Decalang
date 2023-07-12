@@ -53,9 +53,9 @@ impl Parser {
     }
 
     fn declaration(&mut self) -> Result<Stmt, String> {
-        if self.match_token(Var) {
+        if self.match_token(Def) {
             self.var_declaration()
-        } else if self.match_token(Fun) {
+        } else if self.match_token(Def) {
             self.function(FunctionKind::Function)
         } else if self.match_token(Cat) {
             self.category_declaration()
@@ -203,7 +203,7 @@ impl Parser {
         let initializer;
         if self.match_token(Semicolon) {
             initializer = None;
-        } else if self.match_token(Var) {
+        } else if self.match_token(Def) {
             let var_decl = self.var_declaration()?;
             initializer = Some(var_decl);
         } else {
@@ -633,7 +633,7 @@ impl Parser {
                     method,
                 };
             }
-            Fun => {
+            Fu => {
                 self.advance();
                 result = self.function_expression()?;
             }
@@ -710,7 +710,7 @@ impl Parser {
             }
 
             match self.peek().token_type {
-                Cat | Fun | Var | For | If | While | Send | Return => return,
+                Cat | Fu | Def | For | If | While | Send | Return => return,
                 _ => (),
             }
 
