@@ -70,5 +70,5 @@ add(x,y)
 
 4- Open as default the type of file you created with `decalang.exe`
 
-5- execute your program in the terminal with the command `[file name].dl` or `[file name].deca`
+5- Execute your program in the terminal with the command `[file name].dl` or `[file name].deca`
 
