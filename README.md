@@ -55,7 +55,7 @@ add(x,y)
 
 # Download Windows OS
 
-Make sure to do every steps right
+**Make sure to do every steps right**
 
 
 1- Download the Latest Source Code (zip) file on the github
@@ -66,19 +66,9 @@ if you want to use the shell else skip to #4: 3- Execute the `decalang.exe` file
 
 4- Create a file with an extension usually `.dl` or `.deca` anywhere you want
 
-3- Write your code using the /decalang/doc/ syntax
+3- Write your code using the `/decalang/doc/` syntax
 
-4- Open as default the type of file you created with decalang.exe
+4- Open as default the type of file you created with `decalang.exe`
 
 5- execute your program in the terminal with the command `[file name].dl` or `[file name].deca`
 
-# Download to use the shell
-
-
-Make sure to do every steps right
-
-1- Download the Latest Source Code (zip) file on the github
-
-2- Unzip the zip file
-
-3- Execute the decalang.exe file
