@@ -58,7 +58,7 @@ add(x,y)
 **Make sure to do every steps right**
 
 
-1- Download the Latest Source Code (zip) file on the github
+1- Download the `Latest Source Code (zip)` file on the github
 
 2- Unzip the zip file
 
