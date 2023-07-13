@@ -5,7 +5,7 @@ Decalang (dl) is an interpreted programming language made in rust used to do sim
 
 |                                  :warning: WARNING                                  |
 |:------------------------------------------------------------------------------------|
-| **decalang is not ready to use for big projects because of the limitation of the language**   |
+| **decalang is not ready to use for big projects due to its limitation of features**   |
 
 
 # WHY DECALANG?
