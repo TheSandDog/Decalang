@@ -12,7 +12,7 @@ Decalang (dl) is an interpreted programming language made in rust used to do sim
 
 Dl is a fast language, easy to use and beginner friendly since it only has 15 keywords to memorize.
 
-Here is a simple code of decalang.
+Here is a simple code in decalang.
 
 **Decalang**
 
@@ -32,7 +32,7 @@ add(x,y);
 **Make sure to do every steps right**
 
 
-1- Download the `Latest Source Code (zip)` file on the github
+1- Download the `Latest Source Code (zip)` file on the github : https://github.com/TheSandDog/decalang/releases/
 
 2- Unzip the zip file
 
@@ -42,7 +42,7 @@ add(x,y);
 
 3- Write your code using the `/decalang/doc/` syntax
 
-4- Open as default the type of file you created with `decalang.exe`
+4- Open as default the type of file you created with `/decalang/target/release/decalang.exe`
 
-5- Execute your program in the terminal with the command `[file name].dl` or `[file name].deca`
+5- Execute your program in the terminal/cmd with the command `[file name].dl` or `[file name].deca`
 
