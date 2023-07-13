@@ -62,7 +62,7 @@ add(x,y)
 
 2- Unzip the zip file
 
-*if you want to use the shell else skip to #4*: 3- Execute the `decalang.exe` file located at `/target/release/decalang.exe` to open the shell
+*if you dont want to use the shell and make a program skip to #4*: 3- Execute the `decalang.exe` file located at `/target/release/decalang.exe` to open the shell
 
 4- Create a file with an extension usually `.dl` or `.deca` anywhere you want
 
