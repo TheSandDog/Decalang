@@ -50,10 +50,10 @@ add(x,y);
 
 - If you want to contribute to the project : 
 
-1- You need to know what you are doing.
+    1- You need to know what you are doing.
 
-2- You need to have learned the rust language and mastered everything about it.
+    2- You need to have learned the rust language and mastered everything about it.
 
-3- Must have worked in projects similar to this before.
+    3- Must have worked in projects similar to this before.
 
 - If everything above seems familiar to you. You can ask to contribute to the project
