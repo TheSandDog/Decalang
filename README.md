@@ -5,14 +5,14 @@ Decalang (dl) is an interpreted programming language made in rust used to do sim
 
 |                                  :warning: WARNING                                  |
 |:------------------------------------------------------------------------------------|
-| **decalang is not ready to use for big projects because of the limitation of the language**   |
+| **decalang is not ready to use for big projects due to its limitation of features**   |
 
 
 # WHY DECALANG?
 
 Dl is a fast language, easy to use and beginner friendly since it only has 15 keywords to memorize.
 
-Here is a simple code in three different languages including decalang.
+Here is a simple code of decalang.
 
 **Decalang**
 
@@ -26,55 +26,23 @@ var y = 12;
 add(x,y);
 ```
 
-**C**
 
-```c
-#include <stdio.h>
-#include <stdlib.h>
+# Download Windows OS
 
-void add(x,y) { printf(x + y); }
-
-int main(int argc, const char argv[]) {
-  var x = 23;
-  var y = 12;
-  add(x,y);
-  return 0;
-}
-```
-
-**Python**
-
-```python
-def add(x,y): 
-  print(x + y)
-x = 23
-y = 12
-
-add(x,y)
-```
-
-# Download to create programs
+**Make sure to do every steps right**
 
 
-Make sure to do every steps right
-
-1- Download the Latest decalang.exe file on the github
-
-2- Create a file with an extension usually .dl or .deca
-
-3- Write your code using the decalang/doc syntax
-
-4- Open as default the type of file you created with decalang.exe
-
-5- execute your program in the terminal with the command [file name].dl or [file name].deca
-
-# Download to use the shell
-
-
-Make sure to do every steps right
-
-1- Download the Latest Source Code (zip) file on the github
+1- Download the `Latest Source Code (zip)` file on the github
 
 2- Unzip the zip file
 
-3- Execute the decalang.exe file
+*if you dont want to use the shell and make a program skip to #4*: 3- Execute the `decalang.exe` file located at `/target/release/decalang.exe` to open the shell
+
+4- Create a file with an extension usually `.dl` or `.deca` anywhere you want
+
+3- Write your code using the `/decalang/doc/` syntax
+
+4- Open as default the type of file you created with `decalang.exe`
+
+5- Execute your program in the terminal with the command `[file name].dl` or `[file name].deca`
+
