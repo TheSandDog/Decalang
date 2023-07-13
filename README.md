@@ -16,7 +16,7 @@ Here is a simple code in decalang.
 
 **Decalang**
 
-```c
+```cs
 fun add(x,y) { 
   send(x + y); 
 }
@@ -27,7 +27,7 @@ add(x,y);
 ```
 
 
-# Download Windows OS
+# Download (Windows OS)
 
 **Make sure to do every steps right**
 
@@ -36,7 +36,7 @@ add(x,y);
 
 2- Unzip the zip file
 
-*if you dont want to use the shell and make a program skip to #4*: 3- Execute the `decalang.exe` file located at `/target/release/decalang.exe` to open the shell
+*if you dont want to use the shell and make a program skip to #4*: 3- Execute the `decalang.exe` file located at `decalang/target/release/decalang.exe` to open the shell
 
 4- Create a file with an extension usually `.dl` or `.deca` anywhere you want
 
@@ -46,3 +46,14 @@ add(x,y);
 
 5- Execute your program in the terminal/cmd with the command `[file name].dl` or `[file name].deca`
 
+# Contribute
+
+- If you want to contribute to the project : 
+
+1- You need to know what you are doing.
+
+2- You need to have learned the rust language and mastered everything about it.
+
+3- Must have worked in projects similar to this before.
+
+- If everything above seems familiar to you. You can ask to contribute to the project
