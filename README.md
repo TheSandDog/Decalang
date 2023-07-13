@@ -12,7 +12,7 @@ Decalang (dl) is an interpreted programming language made in rust used to do sim
 
 Dl is a fast language, easy to use and beginner friendly since it only has 15 keywords to memorize.
 
-Here is a simple code in three different languages including decalang.
+Here is a simple code of decalang.
 
 **Decalang**
 
@@ -26,32 +26,6 @@ var y = 12;
 add(x,y);
 ```
 
-**C**
-
-```c
-#include <stdio.h>
-#include <stdlib.h>
-
-void add(x,y) { printf(x + y); }
-
-int main(int argc, const char argv[]) {
-  var x = 23;
-  var y = 12;
-  add(x,y);
-  return 0;
-}
-```
-
-**Python**
-
-```python
-def add(x,y): 
-  print(x + y)
-x = 23
-y = 12
-
-add(x,y)
-```
 
 # Download Windows OS
 
