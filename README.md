@@ -31,7 +31,7 @@ add(x,y);
 
 **Make sure to do every steps right**
 
-```
+
 1- Download the `Latest Source Code (zip)` file on the github : https://github.com/TheSandDog/decalang/releases/
 
 2- Unzip the zip file
@@ -45,7 +45,7 @@ add(x,y);
 4- Open as default the type of file you created with `/decalang/target/release/decalang.exe`
 
 5- Execute your program in the terminal/cmd with the command `[file name].dl` or `[file name].deca`
-```
+
 # Contribute
 
 - If you want to contribute to the project : 
