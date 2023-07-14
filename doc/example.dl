@@ -1,0 +1,5 @@
+fun bobyis(what) {
+  send("Boby is :"); send(what);
+}
+
+bobyis("cool");

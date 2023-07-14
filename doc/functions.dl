@@ -1,0 +1,2 @@
+fun foo(x, y) { send(x + y); }
+foo(3, 4);
