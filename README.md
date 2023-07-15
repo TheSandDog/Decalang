@@ -29,22 +29,31 @@ add(x,y);
 
 # Download (Windows OS)
 
-1- Use the command `git clone https://github.com/thesanddog/decalang.git` and unzip the file anywhere you want.
+**Make sure to do every steps right**
 
-2- Create a file with the name `main.dl` and write your code.
 
-3- Open as default the type of file you created with the file `decalang.exe`.
+1- Download the `Latest Source Code (zip)` file on the github : https://github.com/TheSandDog/decalang/releases/
 
-4- Execute your program in terminal by typing `main.dl`.
+2- Unzip the zip file
+
+*if you dont want to use the shell and make a program skip to #4*: 3- Execute the `decalang.exe` file located at `decalang/decalang.exe` to open the shell
+
+4- Create a file with an extension usually `.dl` or `.deca` anywhere you want
+
+3- Write your code using the `/decalang/doc/` syntax
+
+4- Open as default the type of file you created with `/decalang/decalang.exe`
+
+5- Execute your program in the terminal/cmd with the command `[file name].dl` or `[file name].deca`
 
 # Contribute
 
-- If you want to contribute to the project : 
+- If you want to contribute to the project you must agree to these things
 
-      1- You need to know what you are doing.
+**1- I know what I'm doing.**
 
-      2- You need to have learned the rust language and mastered everything about it.
+**2- I learned the rust language and mastered everything about it.**
 
-      3- Must have worked in projects similar to this before.
+**3- I have worked before in projects similar to this.**
 
-- If everything above seems familiar to you. You can ask to contribute to the project
+- If everything above seems familiar to you. You can contact @TheSandDog to contribute to the project
