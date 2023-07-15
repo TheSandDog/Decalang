@@ -48,7 +48,7 @@ add(x,y);
 
 # Contribute
 
-- If you want to contribute to the project you must agree to these things
+If you want to contribute to the project you must agree to these things
 
 **1- I know what I'm doing.**
 
@@ -56,4 +56,4 @@ add(x,y);
 
 **3- I have worked before in projects similar to this.**
 
-- If everything above seems familiar to you. You can contact @TheSandDog to contribute to the project
+<font color="green">If everything above seems familiar to you. You can contact @TheSandDog to contribute to the project</font>
