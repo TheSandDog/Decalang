@@ -1,4 +1,4 @@
-# Decalang
+# What is Decalang
 
 Decalang (dl) is an interpreted programming language made in rust used to do simple tasks since this language is in heavy developement and currently in beta 
 
