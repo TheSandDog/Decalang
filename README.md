@@ -31,14 +31,14 @@ add(x,y);
 
 **Make sure to do every steps right**
 
-
 1- `git clone https://github.com/thesanddog/decalang.git` to download the zip file and unzip it.
 
-4- `fsutil file createnew main.dl` to create the `main.dl` file where you are going to write your code.
+2- `fsutil file createnew main.dl` to create the `main.dl` file where you are going to write your code.
 
-4- Open as default the type of file you created with `decalang.exe`.
+3- Open as default the type of file you created with `decalang.exe`.
 
-5- Execute your program in the terminal/cmd with the command `main.dl` or `[file name].deca`.
+4- `main.dl` to execute your program
+
 
 # Contribute
 
