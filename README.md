@@ -32,19 +32,13 @@ add(x,y);
 **Make sure to do every steps right**
 
 
-1- Download the `Latest Source Code (zip)` file on the github : https://github.com/TheSandDog/decalang/releases/
+1- `git clone https://github.com/thesanddog/decalang.git` to download the zip file and unzip it.
 
-2- Unzip the zip file
+4- `fsutil file createnew main.dl` to create the `main.dl` file where you are going to write your code.
 
-*if you dont want to use the shell and make a program skip to #4*: 3- Execute the `decalang.exe` file located at `decalang/decalang.exe` to open the shell
+4- Open as default the type of file you created with `decalang.exe`.
 
-4- Create a file with an extension usually `.dl` or `.deca` anywhere you want
-
-3- Write your code using the `/decalang/doc/` syntax
-
-4- Open as default the type of file you created with `/decalang/decalang.exe`
-
-5- Execute your program in the terminal/cmd with the command `[file name].dl` or `[file name].deca`
+5- Execute your program in the terminal/cmd with the command `main.dl` or `[file name].deca`.
 
 # Contribute
 
