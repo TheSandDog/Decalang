@@ -56,4 +56,4 @@ If you want to contribute to the project you must agree to these things
 
 **3- I have worked before in projects similar to this.**
 
-<font color="green">If everything above seems familiar to you. You can contact @TheSandDog to contribute to the project</font>
+If everything above seems familiar to you. You can contact @TheSandDog to contribute to the project
