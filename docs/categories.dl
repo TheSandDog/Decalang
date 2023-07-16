@@ -1,0 +1,8 @@
+cat Animals_ {
+    Dog() {
+        send "Hello";
+    }
+}
+
+Animals = Animals_();
+Animals.Dog();
