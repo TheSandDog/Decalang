@@ -4,5 +4,5 @@ cat Animals_ {
     }
 }
 
-Animals = Animals_();
+var Animals = Animals_();
 Animals.Dog();
