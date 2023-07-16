@@ -35,7 +35,7 @@ add(x,y);
 
 2- `fsutil file createnew main.dl` to create the `main.dl` file where you are going to write your code.
 
-3- Open as default the type of file you created with `decalang.exe`.
+3- Open as default the type of file you created with `target/release/decalang.exe`.
 
 4- `main.dl` to execute your program
 
