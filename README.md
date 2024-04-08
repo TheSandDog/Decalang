@@ -27,6 +27,7 @@ add(x,y);
 ```
 
 
+
 # Download (Windows OS)
 
 **Make sure to do every steps right**
@@ -40,6 +41,7 @@ add(x,y);
 4- `main.dl` to execute your program
 
 
+
 # Contribute
 
 If you want to contribute to the project you must agree to these things
@@ -49,5 +51,7 @@ If you want to contribute to the project you must agree to these things
 **2- I learned the rust language and mastered everything about it.**
 
 **3- I have worked before in projects similar to this.**
+
+
 
 If everything above seems familiar to you. You can contact @TheSandDog to contribute to the project
