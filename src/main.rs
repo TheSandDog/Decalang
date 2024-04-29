@@ -71,11 +71,11 @@ fn run_prompt() -> Result<(), String> {
             Err(_) => return Err("Couldnt read line".to_string()),
         }
 
-        println!(
-            "{} {}",
-            "decalang > Processing command: ".yellow(),
-            buffer.yellow()
-        );
+        // println!(
+        //     "{} {}",
+        //     "decalang > Processing command: ".yellow(),
+        //     buffer.yellow()
+        // );
         match run(&mut interpreter, &buffer) {
             Ok(_) => (),
             Err(msg) => println!("{}", msg),
